@@ -55,21 +55,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "annular_width|109800000|65400000|ae54a2bb-d814-40da-a7ce-32e81f62f961|00000000-0000-0000-0000-000000000000",
-        "annular_width|109800000|84600000|d65767af-aa83-4651-8940-098101175106|00000000-0000-0000-0000-000000000000",
-        "annular_width|109850000|46200000|7428097c-0ba6-44c1-bb11-845a570e571b|00000000-0000-0000-0000-000000000000",
-        "annular_width|129000000|46200000|6123219a-4c6f-402c-aa55-e17e1372253f|00000000-0000-0000-0000-000000000000",
-        "annular_width|129000000|65400000|bf17722d-fd66-48c2-b6e2-85bd8f4e7190|00000000-0000-0000-0000-000000000000",
-        "annular_width|129000000|84600000|32de908a-050a-470b-b60a-8f04147fbad5|00000000-0000-0000-0000-000000000000",
-        "annular_width|52400000|84600000|ff302ba2-d7b1-4006-8319-5ca9f59ec5ff|00000000-0000-0000-0000-000000000000",
-        "annular_width|71400000|46200000|5652c876-4d69-416f-bb64-1a6113ef32a1|00000000-0000-0000-0000-000000000000",
-        "annular_width|71400000|65400000|d058c4f7-9eae-46f9-82b3-655adcb25372|00000000-0000-0000-0000-000000000000",
-        "annular_width|71600000|84600000|8d1c6aca-ec94-442d-8b2f-179c25c2f900|00000000-0000-0000-0000-000000000000",
-        "annular_width|90600000|46200000|ca991088-fda6-4fee-a5ca-6c60f2e5190a|00000000-0000-0000-0000-000000000000",
-        "annular_width|90600000|65400000|be70500c-410d-4762-9a97-f4d5a0c5a386|00000000-0000-0000-0000-000000000000",
-        "annular_width|90600000|84600000|b9465fe6-7775-446f-89be-c654a24243b8|00000000-0000-0000-0000-000000000000"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -128,17 +114,17 @@
         "min_clearance": 0.127,
         "min_connection": 0.127,
         "min_copper_edge_clearance": 0.0,
-        "min_hole_clearance": 0.25,
-        "min_hole_to_hole": 0.25,
-        "min_microvia_diameter": 0.19999999999999998,
-        "min_microvia_drill": 0.09999999999999999,
-        "min_resolved_spokes": 2,
+        "min_hole_clearance": 0.32999999999999996,
+        "min_hole_to_hole": 0.5,
+        "min_microvia_diameter": 0.5,
+        "min_microvia_drill": 0.3,
+        "min_resolved_spokes": 4,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.7999999999999999,
         "min_text_thickness": 0.08,
         "min_through_hole_diameter": 0.3,
         "min_track_width": 0.127,
-        "min_via_annular_width": 0.09999999999999999,
+        "min_via_annular_width": 0.15,
         "min_via_diameter": 0.5,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
@@ -186,12 +172,24 @@
         }
       ],
       "track_widths": [
-        0.0
+        0.0,
+        0.15,
+        0.2,
+        0.4,
+        0.6
       ],
       "via_dimensions": [
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.6,
+          "drill": 0.3
+        },
+        {
+          "diameter": 0.9,
+          "drill": 0.4
         }
       ],
       "zones_allow_external_fillets": false
@@ -419,24 +417,24 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "NewMacro.kicad_pro",
+    "filename": "MacroBoard.kicad_pro",
     "version": 1
   },
   "net_settings": {
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
-        "diff_pair_gap": 0.25,
+        "clearance": 0.13,
+        "diff_pair_gap": 0.255,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
-        "microvia_diameter": 0.3,
-        "microvia_drill": 0.1,
+        "microvia_diameter": 0.8,
+        "microvia_drill": 0.4,
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.3,
+        "track_width": 0.2,
         "via_diameter": 0.8,
         "via_drill": 0.4,
         "wire_width": 6
@@ -454,8 +452,8 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "specctra_dsn": "",
-      "step": "",
+      "specctra_dsn": "C:/Users/lmlor/Desktop/MacroBoard.dsn",
+      "step": "C:/Users/lmlor/Desktop/Fusion/MacroBoard.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
