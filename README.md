@@ -1,6 +1,6 @@
 # MacroBoard
 ![Revision](https://img.shields.io/badge/rev-1.0-blue)
-![Preview](https://github.com/LoreSchaeffer/MacroBoard/blob/master/)
+![Preview](https://github.com/LoreSchaeffer/MacroBoard/blob/main/assets/front.png)
 
 A macro keyboard with programmable keys, RGB leds, programmable slider potentiometers and a lot of expandability through I2C and UART.
 
