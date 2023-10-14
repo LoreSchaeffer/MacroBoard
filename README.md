@@ -1,6 +1,7 @@
 # MacroBoard
-![Board Revision](https://img.shields.io/badge/Board_Revision-1.0-yellow)
-![Software](https://img.shields.io/badge/Software-WIP-red)
+![Board Revision](https://img.shields.io/badge/Board_Revision-1.1-green)
+![Firmware](https://img.shields.io/badge/Software-WIP-yellow)
+![Software](https://img.shields.io/badge/Software-Not_started-red)
 
 
 ![Preview](https://github.com/LoreSchaeffer/MacroBoard/blob/main/assets/front.png)
@@ -16,7 +17,9 @@ A macro keyboard with programmable keys, RGB leds, programmable slider potentiom
 - [x] 5V and 3.3V power outputs
 - [x] I2C expansion port
 - [x] UART expansion port
+- [x] LED data expansion port
 - [ ] 3D printable case
+- [ ] Firmware
 - [ ] Software
 
 ## Contributing
