@@ -1,6 +1,6 @@
 # MacroBoard
 ![Board Revision](https://img.shields.io/badge/Board_Revision-1.1-green)
-![Firmware](https://img.shields.io/badge/Software-WIP-yellow)
+![Firmware](https://img.shields.io/badge/Firmware-WIP-yellow)
 ![Software](https://img.shields.io/badge/Software-Not_started-red)
 
 
