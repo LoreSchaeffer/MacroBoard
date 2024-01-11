@@ -1,0 +1,15 @@
+This Keypad code differs from standard Arduino code in two respects:
+
+(1) We have 
+		pinMode(_pin,INPUT_PULLUP); 
+	instead of 
+		pinMode(_pin, INPUT); digitalWrite(_pin, 1);
+
+	See https://github.com/Chris--A/Keypad/issues/41#issuecomment-1687693788
+
+(2) We have 
+		#define MAPSIZE 12
+	instead of
+		#define MAPSIZE 10
+
+Both of these changes are in Keypad.h
